@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/ll_startdate"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="15dp"
+            android:background="@null"
+            android:gravity="center_vertical"
+            android:text="起始日期"
+            android:textColor="@color/current_time_text"
+            android:textSize="15sp"
+            android:layout_marginLeft="15dp" />
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/tv_type_selected_startdate"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="15dp"
+            android:background="@null"
+            android:gravity="center_vertical"
+            android:textColor="@color/selected_time_text"
+            android:text="2018-02-01"
+            android:textSize="15sp"
+            android:layout_marginRight="15dp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/ll_enddate"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="15dp"
+            android:background="@null"
+            android:gravity="center_vertical"
+            android:text="结束日期"
+            android:textColor="@color/current_time_text"
+            android:textSize="15sp"
+            android:layout_marginLeft="15dp" />
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/tv_type_selected_enddate"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="15dp"
+            android:background="@null"
+            android:gravity="center_vertical"
+            android:textColor="@color/selected_time_text"
+            android:textSize="15sp"
+            android:text="2018-02-01"
+            android:layout_marginRight="15dp" />
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/tv_type_refresh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="点击刷新"
+        android:textSize="20sp"
+        android:background="?android:attr/selectableItemBackground"/>
+
+    <com.github.mikephil.charting.charts.PieChart
+        android:id="@+id/typepiechart"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    </com.github.mikephil.charting.charts.PieChart>
+
+
+</LinearLayout>

@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">记一计</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string-array name="pay_sort">
+        <item>饮食</item>
+        <item>户外</item>
+        <item>水电</item>
+        <item>服饰</item>
+        <item>运动</item>
+        <item>美容</item>
+        <item>网购</item>
+        <item>送礼</item>
+        <item>生活</item>
+        <item>其它</item>
+    </string-array>
+    <string-array name="income_sort">
+        <item>工资</item>
+        <item>兼职</item>
+        <item>红包</item>
+        <item>奖金</item>
+        <item>零花钱</item>
+        <item>报销</item>
+        <item>其它</item>
+    </string-array>
+    <string-array name="InEx">
+        <item>收入/支出</item>
+        <item>分类</item>
+    </string-array>
+    <string-array name="month">
+        <item>一月</item>
+        <item>二月</item>
+        <item>三月</item>
+        <item>四月</item>
+        <item>五月</item>
+        <item>六月</item>
+        <item>七月</item>
+        <item>八月</item>
+        <item>九月</item>
+        <item>十月</item>
+        <item>十一月</item>
+        <item>十二月</item>
+    </string-array>
+    <string name="spinner_sort">请选择分类</string>
+    <string name="cancel">取消</string>
+    <string name="title">请选择时间</string>
+    <string name="confirm">确定</string>
+    <string name="year">年</string>
+    <string name="month">月</string>
+    <string name="day">日</string>
+    <string name="hour">时</string>
+    <string name="minute">分</string>
+    <string name="select_date">选择日期</string>
+    <string name="current_date">当前日期</string>
+    <string name="select_time">选择时间</string>
+    <string name="current_time">当前时间</string>
+</resources>
